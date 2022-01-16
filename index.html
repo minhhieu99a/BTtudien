@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<script>
+    let A=prompt("Nhập từ bạn muốn tra cứu :");
+    let tiengViet=["quả táo","quả chuối","quả dưa hấu"];
+    let engLish=["apple","bananas","watermelon"];
+    for (let i = 0; i < tiengViet.length; i++) {
+        if (A===tiengViet[i]){
+            alert(engLish[i]);
+            break;
+        } else {
+            alert("Từ bạn muốn tìm không có trong từ điển")
+        }
+    }
+</script>
+</body>
+</html>
